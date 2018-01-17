@@ -1,0 +1,144 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+  z-index: 5;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  }
+
+nav a {
+  color: seashell;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+/* Main Content */
+  /* Main Content - Universal Styles */
+
+.main-content {
+  padding-top: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  /* Main Content - Mission */
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 700px;
+  background-image: url(../images/img-mission-background.jpg);
+  justify-content: center;
+}
+
+.mission .text-content {
+  background-color: black;
+  z-index: 1;
+}
+
+  /* Main Content - Tea of the Month */
+
+.tea-of-the-month {
+  width: 1000px;
+  margin: 50px 0;
+}
+
+.three-teas, .two-teas {
+  display: flex;
+  justify-content: center;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+.tea span {
+  margin-top: 5px;
+}
+
+  /* Main Content - Locations */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+}
+
+.locations h2 {
+  margin: 5px auto;
+}
+
+.address-boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+}
+
+/* Footer */
+
+footer {
+  padding: 20px;
+  margin: 0px;
+}
+
+.about {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
